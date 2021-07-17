@@ -1,1 +1,1 @@
-mkdir record && mkdir record/lrecord && mkdir record/vrecord && python train.py --no_train
+CUDA_VISIBLE_DEVICES=2,3 python train.py --no_train
